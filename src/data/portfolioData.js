@@ -213,30 +213,30 @@ export const projectsData = [
     }
   },
   {
-    id: "tutor",
-    title: "Tutor — 1-on-1 Online Tutoring Platform",
-    category: "HTML5 / CSS3 / JavaScript / EdTech",
-    shortDescription: "An interactive educational web platform connecting students with vetted private tutors for personalized 1-on-1 learning, featuring dynamic metrics, student resources, and clear registration pathways.",
-    image: "/projects/tutor.png",
-    technologies: ["HTML5", "CSS3", "JavaScript", "UI/UX Design", "FontAwesome", "Responsive Design"],
-    githubUrl: "https://github.com/mhady8736/Tutor",
-    liveDemoUrl: "https://mhady8736.github.io/Tutor/",
+    id: "gym-website",
+    title: "Gym Website — Modern Fitness Center Landing Page",
+    category: "HTML5 / CSS3 / JavaScript / Fitness",
+    shortDescription: "A high-energy, responsive landing page for a modern fitness center, featuring class schedules, trainer profiles, pricing plans, and an interactive BMI calculator.",
+    image: "/projects/gym-website.png",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI Animations"],
+    githubUrl: "https://github.com/mhady8736/Gym-Website",
+    liveDemoUrl: "https://mhady8736.github.io/Gym-Website/",
     featured: true,
     caseStudy: {
-      tagline: "Simplifying personalized learning and private instructor discovery through clean, friendly web design",
-      overview: "Tutor is an online educational landing platform built to make 1-on-1 private instruction accessible and trustworthy. The platform highlights key social proof metrics (870+ expert tutors), provides specialized pathways for school and university students, and guides learners directly to finding their ideal tutor.",
-      problem: "Students seeking educational tutoring often struggle with cluttered portals, confusing pricing structures, and ambiguous teacher qualifications.",
-      approach: "Designed a clean, welcoming visual interface with cheerful color accents, satisfaction guarantees, clear platform statistics, and seamless onboarding CTAs. Implemented responsive grid layouts and intuitive navigation.",
+      tagline: "Empowering fitness journeys through an energetic and accessible web experience",
+      overview: "Gym Website is a dynamic digital storefront for a fitness center. The platform provides potential members with everything they need to commit to their health, from exploring class offerings and meeting expert trainers to calculating their BMI and choosing the right membership plan.",
+      problem: "Many local gyms lack an engaging online presence, relying on social media pages that don't effectively communicate their full range of facilities, schedules, or pricing in an organized way.",
+      approach: "Designed a bold, high-contrast visual interface to convey energy and strength. Structured the layout logically with clear navigation, smooth scrolling, and strong calls to action. Developed a custom JavaScript BMI calculator to provide immediate interactive value to visitors.",
       keyFeatures: [
-        "Hero section featuring 100% satisfaction guarantee and fast onboarding triggers",
-        "Dynamic platform statistics banner showcasing 870+ verified expert tutors",
-        "Dedicated student resource sections and institutional partnership announcements",
-        "Fluid responsive design tailored for smartphones, tablets, laptops, and large displays"
+        "Interactive BMI (Body Mass Index) calculator for user engagement",
+        "Detailed class schedules and program descriptions",
+        "Trainer profiles highlighting expertise and specialties",
+        "Clear, tiered membership pricing tables"
       ],
       architecturalHighlights: [
-        "Clean CSS modular class structure ensuring rapid styling maintainability",
-        "Lightweight DOM tree for lightning-fast performance on student mobile devices",
-        "Consistent typography and button component states across interactive elements"
+        "Lightweight vanilla JavaScript for interactivity and calculator logic",
+        "Custom CSS animations and transitions for an energetic feel",
+        "Fully responsive layout adapting seamlessly to mobile and desktop screens"
       ]
     }
   },
