@@ -267,6 +267,62 @@ export const projectsData = [
         "Semantic layout with accessible interactive controls for touch and keyboard users"
       ]
     }
+  },
+  {
+    id: "tutor",
+    title: "Tutor — 1-on-1 Online Tutoring Platform",
+    category: "HTML5 / CSS3 / JavaScript / EdTech",
+    shortDescription: "An interactive educational web platform connecting students with vetted private tutors for personalized 1-on-1 learning, featuring dynamic metrics, student resources, and clear registration pathways.",
+    image: "./projects/tutor.png",
+    technologies: ["HTML5", "CSS3", "JavaScript", "UI/UX Design", "FontAwesome", "Responsive Design"],
+    githubUrl: "https://github.com/mhady8736/Tutor",
+    liveDemoUrl: "https://mhady8736.github.io/Tutor/",
+    featured: true,
+    caseStudy: {
+      tagline: "Simplifying personalized learning and private instructor discovery through clean, friendly web design",
+      overview: "Tutor is an online educational landing platform built to make 1-on-1 private instruction accessible and trustworthy. The platform highlights key social proof metrics (870+ expert tutors), provides specialized pathways for school and university students, and guides learners directly to finding their ideal tutor.",
+      problem: "Students seeking educational tutoring often struggle with cluttered portals, confusing pricing structures, and ambiguous teacher qualifications.",
+      approach: "Designed a clean, welcoming visual interface with cheerful color accents, satisfaction guarantees, clear platform statistics, and seamless onboarding CTAs. Implemented responsive grid layouts and intuitive navigation.",
+      keyFeatures: [
+        "Hero section featuring 100% satisfaction guarantee and fast onboarding triggers",
+        "Dynamic platform statistics banner showcasing 870+ verified expert tutors",
+        "Dedicated student resource sections and institutional partnership announcements",
+        "Fluid responsive design tailored for smartphones, tablets, laptops, and large displays"
+      ],
+      architecturalHighlights: [
+        "Clean CSS modular class structure ensuring rapid styling maintainability",
+        "Lightweight DOM tree for lightning-fast performance on student mobile devices",
+        "Consistent typography and button component states across interactive elements"
+      ]
+    }
+  },
+  {
+    id: "coffee",
+    title: "Coffee Shop — Cafe Landing Page & Menu",
+    category: "HTML5 / CSS3 / Web Design",
+    shortDescription: "A stylish, warm landing page for a modern cafe, showcasing their artisanal coffee menu, cozy ambiance, and local community events.",
+    image: "./projects/coffee.png",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Flexbox"],
+    githubUrl: "https://github.com/mhady8736/Coffee",
+    liveDemoUrl: "https://mhady8736.github.io/Coffee/",
+    featured: true,
+    caseStudy: {
+      tagline: "Creating a welcoming digital storefront for an artisanal local coffee shop",
+      overview: "The Coffee project is a beautifully crafted landing page designed to bring the warm, inviting atmosphere of a local cafe to the web. It features a curated digital menu, visually rich hero sections, and elegant typography to entice coffee lovers.",
+      problem: "Many local cafes rely exclusively on social media or basic food-delivery apps, missing out on having a branded, dedicated website that communicates their unique aesthetic and full menu.",
+      approach: "Designed a single-page scrolling experience with smooth transitions. Focused heavily on high-quality imagery, warm color palettes, and intuitive navigation that works flawlessly on mobile devices for users searching on the go.",
+      keyFeatures: [
+        "Visual-heavy hero section conveying warmth and ambiance",
+        "Structured digital menu layout with clear pricing",
+        "Fully responsive navigation and layout for mobile visitors",
+        "Clean, semantic HTML and modular CSS structure"
+      ],
+      architecturalHighlights: [
+        "Optimized image delivery for fast mobile loading",
+        "CSS custom properties for easy theme and brand color adjustments",
+        "Lightweight and framework-free for maximum performance"
+      ]
+    }
   }
 ];
 
