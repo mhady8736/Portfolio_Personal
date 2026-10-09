@@ -42,7 +42,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fcfcfd] dark:bg-[#09090b] text-zinc-900 dark:text-[#f4f4f5] flex flex-col transition-colors duration-300 selection:bg-zinc-800 selection:text-white">
+    <div className="min-h-screen bg-[#fcfcfd] dark:bg-[#09090b] text-slate-900 dark:text-[#f4f4f5] flex flex-col transition-colors duration-300 selection:bg-slate-800 selection:text-white">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       
       <main className="flex-1">

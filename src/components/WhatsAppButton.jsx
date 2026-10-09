@@ -16,13 +16,13 @@ export default function WhatsAppButton() {
     >
       {/* Interactive Tooltip Pill */}
       <div 
-        className={`hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-lg text-xs font-medium text-zinc-800 dark:text-zinc-200 transition-all duration-300 pointer-events-none ${
+        className={`hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-lg text-xs font-medium text-slate-800 dark:text-slate-200 transition-all duration-300 pointer-events-none ${
           isHovered 
             ? 'opacity-100 translate-x-0' 
             : 'opacity-0 translate-x-3'
         }`}
       >
-        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+        <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse" />
         <span>تواصل معي على واتساب / Chat on WhatsApp</span>
       </div>
 
@@ -34,7 +34,7 @@ export default function WhatsAppButton() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         aria-label="Direct chat on WhatsApp with Mohamed Abdel Hady"
-        className="relative group w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white flex items-center justify-center shadow-[0_4px_20px_rgba(37,211,102,0.45)] hover:shadow-[0_6px_28px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus-visible:ring-4 focus-visible:ring-emerald-400 cursor-pointer"
+        className="relative group w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white flex items-center justify-center shadow-[0_4px_20px_rgba(37,211,102,0.45)] hover:shadow-[0_6px_28px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus-visible:ring-4 focus-visible:ring-indigo-400 cursor-pointer"
         title="Chat on WhatsApp: 01145367954"
       >
         {/* Subtle Ambient Pulse Ring */}
